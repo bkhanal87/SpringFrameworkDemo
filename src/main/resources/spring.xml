@@ -17,6 +17,7 @@
 </bean>
 <bean id="nurse" class="demo.Nurse"></bean>-->
 <bean id="atandt" class="IOC.Atandt"></bean>
+        <bean id="tmobile" class="IOC.Tmobile"></bean>
 </beans>
 
 

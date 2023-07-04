@@ -9,9 +9,12 @@ public class Mobile {
 
         // Get the bean
         Atandt atandt = applicationContext.getBean(Atandt.class);
+        Tmobile tmobile = (Tmobile) applicationContext.getBean("tmobile"); //typecasting by using ID and object type
 
         // calling the methods
         atandt.calling();
         atandt.data();
+        tmobile.calling();
+        tmobile.data();
     }
 }
