@@ -18,6 +18,12 @@
 <bean id="nurse" class="demo.Nurse"></bean>-->
 <bean id="atandt" class="IOC.Atandt"></bean>
         <bean id="tmobile" class="IOC.Tmobile"></bean>
+        <bean id="student" class="Student.Student">
+                <constructor-arg name="name" value="John"/>
+                <constructor-arg name="age" value="21"/>
+
+        </bean>
+
 </beans>
 
 
