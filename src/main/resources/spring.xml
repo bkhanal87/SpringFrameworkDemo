@@ -16,7 +16,7 @@
         <property name="qualification" value="MBBS"></property>
 </bean>
 <bean id="nurse" class="demo.Nurse"></bean>-->
-
+<bean id="atandt" class="IOC.Atandt"></bean>
 </beans>
 
 
