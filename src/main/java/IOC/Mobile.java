@@ -8,13 +8,10 @@ public class Mobile {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
 
         // Get the bean
-        Atandt atandt = applicationContext.getBean(Atandt.class);
-        Tmobile tmobile = (Tmobile) applicationContext.getBean("tmobile"); //typecasting by using ID and object type
+        Sim sim = applicationContext.getBean(Tmobile.class);
 
         // calling the methods
-        atandt.calling();
-        atandt.data();
-        tmobile.calling();
-        tmobile.data();
+        sim.data();
+        sim.calling();
     }
 }
